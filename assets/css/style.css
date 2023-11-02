@@ -1,0 +1,52 @@
+header{
+    font-family: Lato-Black;
+    src: url('../fonts2/Lato-Black.ttf');
+    background-color: brown;
+    position: relative;
+    text-align: center ;
+}
+body{
+    width: 1160px;
+    margin: auto;
+    border-right: 5px solid black;
+    font-family: Relayway;
+    src: url('../fonts1/Raleway-Italic-VariableFont_wght.ttf');
+    text-align: left;
+}
+address{
+    background-color: rgb(33, 26, 26);
+}
+h2{
+    background-color: rgb(213, 180, 137);
+}
+img{
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+    box-shadow: 0 0 30px rgb(46, 42, 42);
+    cursor: zoom-in;
+}
+.gauche{
+    background-color: brown;
+    display: flex;
+}
+.bar{
+    text-align: left;
+    display: grid;
+    grid-template-columns: repeat(1,300px);
+}
+.droite{
+    background-color: #fff;
+    width: 700px;
+    cursor:  brown;
+}
+.total{
+    display: flex;
+    justify-content: space-between;
+}
+footer{
+    background-color: brown;
+    text-align: center;
+    
+}
