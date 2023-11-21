@@ -1,6 +1,6 @@
+
 header{
-    font-family: Lato-Black;
-    src: url('../fonts2/Lato-Black.ttf');
+    font-family:'Lato', sans-serif;
     background-color: brown;
     position: relative;
     text-align: center ;
@@ -9,8 +9,7 @@ body{
     width: 1160px;
     margin: auto;
     border-right: 5px solid black;
-    font-family: Relayway;
-    src: url('../fonts1/Raleway-Italic-VariableFont_wght.ttf');
+    font-family:'Raleway', sans-serif;
     text-align: left;
 }
 address{
